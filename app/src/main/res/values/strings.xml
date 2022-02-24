@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">appSP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settingaconut">Thiết lập tài khoản</string>
+    <string name="txttrogiup">Bạn có yêu cầu gì cần chúng tôi hổ trợ
+        xin vui lòng liên hệ <b><br></br>037517248</b>
+        hoặc qua gmail <b> <br></br>12345shop@gmail.com</b></string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appsp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".object.SanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".object.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".object.List_order_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".object.All_moreActivity"
+            android:exported="false" />
+        <activity android:name=".object.GioHang" />
+        <activity android:name=".object.Upload" />
+        <activity android:name=".object.Updateuser" />
+        <activity android:name=".object.AoActivity" />
+        <activity android:name=".object.QuanActivity" />
+        <activity android:name=".object.ChiTiet" />
+        <activity android:name=".object.Insertactivity" />
+        <activity android:name=".object.Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".object.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

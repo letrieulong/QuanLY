@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="" android:icon="@drawable/addshoping" android:id="@+id/itemadd"/>
+    <item android:title="Mua Ngay" android:id="@+id/itemmuanow"/>
+</menu>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DFDBDB"
+    android:padding="5dp"
+    android:id="@+id/chitiet"
+    android:layout_height="match_parent"
+    tools:context=".object.ChiTiet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:menu="@menu/bottomnavict"
+        android:id="@+id/bottomnavi_ct"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btnmess"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/viewimgbutton"
+                        android:src="@drawable/chat" />
+
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:background="@drawable/viewimgbutton"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btnshopping"
+                        android:src="@drawable/addshoping"
+                        android:layout_height="48dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <Button
+                android:text="Mua Ngay"
+                android:textColor="@color/white"
+                android:background="@drawable/viewcontineu"
+                android:layout_weight="0.8"
+                android:id="@+id/btnmua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_above="@+id/bottomnavi_ct"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imgviewct"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/noimage" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/txttenspct"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Tên Sản Phẩm"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtgia"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Giá : "
+                                android:textColor="@color/black"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/txtprice_spct"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="15,000,000"
+                                android:textColor="#FB0404"
+                                android:textSize="17dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="5dp"
+                                android:text="Số Lượng : "
+                                android:textColor="@color/black"
+                                android:textSize="20dp" />
+
+                            <Spinner
+                                android:id="@+id/spinner"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="center" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Thông Tin Chi Tiết"
+                            android:textColor="#1C1C1C"
+                            android:textSize="20dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.05"
+                                android:text="Chất Liệu"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/txtfabric"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.11"
+                                android:text="Chất Liệu "
+                                android:textColor="#EB000000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.09"
+                                android:text="Xuất Xứ"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/txtorigin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.11"
+                                android:text="Việt Nam "
+                                android:textColor="#EB000000" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Mô Tả Sản Phẩm"
+                            android:textColor="#1C1C1C"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/txtcontent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Nội Dung"
+                            android:textColor="#EB000000"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/txtsize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Size"
+                            android:textSize="20dp"
+                            android:textColor="#EB000000" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title=" " />
+</RelativeLayout>

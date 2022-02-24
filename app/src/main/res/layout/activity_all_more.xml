@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".object.All_moreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarall_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#12000000"
+            app:title=" " />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:id="@+id/edtsearch"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/customesearch"
+            android:drawableRight="@drawable/search"
+            android:hint="Tìm kiếm sản phẩm"
+            android:inputType="text" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_more"
+        android:layout_height="match_parent"/>
+</LinearLayout>

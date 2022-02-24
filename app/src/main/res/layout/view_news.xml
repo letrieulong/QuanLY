@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EAE7E7"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="2dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:id="@+id/relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relativeviewnews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_sp"
+                    android:layout_width="93dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/noimage" />
+            </RelativeLayout>
+<!--            adjustViewBounds tự động co dản full imageview-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relativeviewnews"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtname_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:maxLength="20"
+                    android:text="Tên Sản Phẩm"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txtprice_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtname_sp"
+                    android:maxLength="20"
+                    android:text="15,000,000"
+                    android:textColor="#FF0000"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtviewnews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/neww"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

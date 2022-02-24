@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/personblack.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/personred.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/viewbtn.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/viewbutton.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/viewcard.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/viewclick.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable-v24/viewimgbutton.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/btn.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/custombtn.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/custombtn_viewpro.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/custombtnadd.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/customedt.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/customedt_viewpro.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/customesearch.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/next.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/search.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/drawable/vieworder.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_all.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_all_more.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_ao.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_chi_tiet.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_gio_hang.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_inforaccount.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_insert.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_list_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_quan.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_register.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_san_pham.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_see_more.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_updateuser.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/activity_upload.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/addsp.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/dialogprofile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_add.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_allinfor.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_dialog.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_infor.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_list_s_p.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_repurchase.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/fragment_see_more.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/function.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/giohangview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/inforuser.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/layout_custom_dialog.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/list_view_loaisp.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/listquan.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/listsanpham.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/progressbar.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/tab_lay_out_1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/tap_lay_out.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/view_frag_layout1.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/view_list_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/view_listsp.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/view_news.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/layout/view_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/appSP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

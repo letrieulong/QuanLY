@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27000000"
+    android:orientation="vertical"
+    tools:context=".object.ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title=" "
+        android:id="@+id/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyprofile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        app:cardBackgroundColor="#FF0000"-->
+<!--        android:id="@+id/cardviewimg"-->
+<!--        android:layout_height="200dp">-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:id="@+id/imguserfrag"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/personuser"-->
+<!--            android:layout_height="70dp"/>-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/realeimgae"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Chạm để thay đổi"-->
+<!--                android:background="#A8000000"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+<!--        </RelativeLayout>-->
+
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tên"-->
+<!--                android:textSize="22dp" />-->
+
+<!--            <TextView-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:hint="Lê Triệu Long"-->
+<!--                android:layout_weight="1"-->
+<!--                android:id="@+id/txtname"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:drawableRight="@drawable/next"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp" />-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tên đăng nhập"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:textSize="22dp" />-->
+
+<!--            <TextView-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:hint="Long"-->
+<!--                android:id="@+id/txtnamelog"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:drawableRight="@drawable/next"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp" />-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:text="Ngày sinh"-->
+<!--                android:textSize="22dp" />-->
+
+<!--            <TextView-->
+<!--                android:hint="04/01/2000"-->
+<!--                android:id="@+id/txtbirtday"-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:drawableRight="@drawable/next"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp" />-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Giới tính"-->
+<!--                android:textSize="22dp"/>-->
+
+<!--            <TextView-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:hint="Nam"-->
+<!--                android:id="@+id/txtset"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp"-->
+<!--                android:drawableRight="@drawable/next"/>-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Email"-->
+<!--                android:textSize="22dp"/>-->
+
+<!--            <kr.co.prnd.readmore.ReadMoreTextView-->
+<!--                android:hint="loe@gmail.com"-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:maxLines="10"-->
+<!--                android:id="@+id/txtemail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp"-->
+<!--                android:drawableRight="@drawable/next"/>-->
+
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:text="Số điện thoại"-->
+<!--                android:textSize="22dp" />-->
+
+<!--            <TextView-->
+<!--                android:hint="0276628274"-->
+<!--                android:textColorHint="#27000000"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/txtphone"-->
+<!--                android:maxLength="11"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="22dp"-->
+<!--                android:drawableRight="@drawable/next"/>-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
