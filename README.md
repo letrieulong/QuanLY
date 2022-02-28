@@ -3,4 +3,4 @@
 # CÓ sử dụng SQL, PHP, API...
 
 # Vui Lòng xem chi tiết sản phẩm dưới video
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/sCqfb7S5LBM/mq2.jpg?sqp=COSP3ZAG&rs=AOn4CLAmPNxYFE2JhvBE7mnVXLsEHinkdQ)](https://www.youtube.com/watch?v=sCqfb7S5LBM)
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/sCqfb7S5LBM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBeDGpnsjk4mFmQ71SJC-nYrNM65Q)](https://www.youtube.com/watch?v=sCqfb7S5LBM)
